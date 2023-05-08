@@ -10,8 +10,6 @@ class FableServiceProviderBase
 	{
 		this.fable = pFable;
 
-		this.isFableService = true;
-
 		this.options = (typeof(pOptions) === 'object') ? pOptions : {};
 
         this.serviceType = 'Unknown';
@@ -20,6 +18,8 @@ class FableServiceProviderBase
 
         this.Hash = (typeof(pServiceHash) === 'string') ? pServiceHash : `${this.UUID}`;
 	}
+
+    static isFableService = true;
 }
 
 module.exports = FableServiceProviderBase;

@@ -14,8 +14,6 @@ class FableCoreServiceProviderBase
 	{
 		this.fable = false;
 
-		this.isFableService = true;
-
 		this.options = (typeof(pOptions) === 'object') ? pOptions : {};
 
         this.serviceType = 'Unknown';
@@ -25,6 +23,9 @@ class FableCoreServiceProviderBase
 
         this.Hash = (typeof(pServiceHash) === 'string') ? pServiceHash : `${this.UUID}`;
 	}
+
+
+    static isFableService = true;
 
 	// After fable is initialized, it would be expected to be wired in as a normal service.
 	connectFable(pFable)
