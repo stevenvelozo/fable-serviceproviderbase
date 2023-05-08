@@ -14,6 +14,8 @@ class FableCoreServiceProviderBase
 	{
 		this.fable = false;
 
+		this.isFableService = true;
+
 		this.options = (typeof(pOptions) === 'object') ? pOptions : {};
 
         this.serviceType = 'Unknown';
