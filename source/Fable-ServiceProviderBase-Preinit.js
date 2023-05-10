@@ -4,7 +4,6 @@
 * For a couple services, we need to be able to instantiate them before the Fable object is fully initialized.
 * This is a base class for those services.
 *
-* @license MIT
 * @author <steven@velozo.com>
 */
 
