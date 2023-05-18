@@ -1,6 +1,5 @@
 /**
 * Fable Service Base
-* @license MIT
 * @author <steven@velozo.com>
 */
 
