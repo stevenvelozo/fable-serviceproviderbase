@@ -10,16 +10,25 @@ class FableServiceProviderBase
 	{
 		this.fable = pFable;
 
-		this.options = (typeof(pOptions) === 'object') ? pOptions : {};
+		this.options = (typeof(pOptions) === 'object') ? pOptions
+						: ((typeof(pFable) === 'object') && !pFable.isFable) ? pFable
+						: {};
 
-        this.serviceType = 'Unknown';
+		this.serviceType = 'Unknown';
 
-        this.UUID = pFable.getUUID();
+		if (typeof(pFable.getUUID) == 'function')
+		{
+			this.UUID = pFable.getUUID();
+		}
+		else
+		{
+			this.UUID = `NoFABLESVC-${Math.floor((Math.random() * (99999 - 10000)) + 10000)}`
+		}
 
-        this.Hash = (typeof(pServiceHash) === 'string') ? pServiceHash : `${this.UUID}`;
+		this.Hash = (typeof(pServiceHash) === 'string') ? pServiceHash : `${this.UUID}`;
 	}
 
-    static isFableService = true;
+	static isFableService = true;
 }
 
 module.exports = FableServiceProviderBase;

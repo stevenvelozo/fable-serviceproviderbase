@@ -88,7 +88,7 @@ suite
 					function()
 					{
 						testFable = new libFable();
-                        
+
                         let tmpSimpleService = new SimpleService(testFable, {SomeOption: true});
 
                         tmpSimpleService.doSomething();
@@ -238,6 +238,18 @@ suite
                         Expect(testFable.defaultServices.MockCoreService).to.be.an('object');
 
                         Expect(testFable.defaultServices.MockCoreService.fable.log).to.be.an('object');
+                    }
+                )
+
+                test
+                (
+                    'Construct a service without a fable at all',
+                    function()
+                    {
+                        let tmpService = new SimpleService({Setting:'Something'});
+
+                        Expect(tmpService.options.Setting).to.equal('Something');
+                        Expect(tmpService.UUID).to.be.a('string');
                     }
                 )
 
