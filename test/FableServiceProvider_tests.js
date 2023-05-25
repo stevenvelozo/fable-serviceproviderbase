@@ -115,9 +115,12 @@ suite
 					{
 						testFable = new libFable();
                         testFable.serviceManager.addServiceType('SimpleService', SimpleService);
-                        testFable.serviceManager.instantiateServiceProvider('SimpleService', {SomeOption: true}, 'SimpleService-123');
+                        let tmpSimpleService = testFable.serviceManager.instantiateServiceProvider('SimpleService', {SomeOption: true}, 'SimpleService-123');
 
                         Expect(testFable.serviceManager.services['SimpleService']['SimpleService-123']).to.be.an('object');
+
+                        // The passed-in magic stuff should work too.
+                        tmpSimpleService.log.info(`There were almost ${tmpSimpleService.defaultServices.DataFormat.formatterDollars(9821229.37)} dollars just lying here!`);
 
                         Expect(testFable.serviceManager.defaultServices['SimpleService']).to.be.an('object');
 

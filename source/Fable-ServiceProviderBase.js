@@ -25,6 +25,11 @@ class FableServiceProviderBase
 		}
 
 		this.Hash = (typeof(pServiceHash) === 'string') ? pServiceHash : `${this.UUID}`;
+
+		// Pull back a few things
+		this.log = this.fable.log;
+		this.services = this.fable.services;
+		this.defaultServices = this.fable.defaultServices;
 	}
 
 	static isFableService = true;
