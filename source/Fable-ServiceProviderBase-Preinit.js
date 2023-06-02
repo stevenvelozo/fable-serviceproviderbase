@@ -15,16 +15,16 @@ class FableCoreServiceProviderBase
 
 		this.options = (typeof(pOptions) === 'object') ? pOptions : {};
 
-        this.serviceType = 'Unknown';
+		this.serviceType = 'Unknown';
 
 		// The hash will be a non-standard UUID ... the UUID service uses this base class!
-        this.UUID = `CORESVC-${Math.floor((Math.random() * (99999 - 10000)) + 10000)}`;
+		this.UUID = `CORESVC-${Math.floor((Math.random() * (99999 - 10000)) + 10000)}`;
 
-        this.Hash = (typeof(pServiceHash) === 'string') ? pServiceHash : `${this.UUID}`;
+		this.Hash = (typeof(pServiceHash) === 'string') ? pServiceHash : `${this.UUID}`;
 	}
 
 
-    static isFableService = true;
+	static isFableService = true;
 
 	// After fable is initialized, it would be expected to be wired in as a normal service.
 	connectFable(pFable)

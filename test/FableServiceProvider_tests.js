@@ -105,7 +105,7 @@ suite
                         testFable.serviceManager.addServiceType('SimpleService');
                         testFable.serviceManager.instantiateServiceProvider('SimpleService', {SomeOption: true}, 'SimpleService-123');
 
-                        Expect(testFable.serviceManager.services['SimpleService']['SimpleService-123']).to.be.an('object');
+                        Expect(testFable.serviceManager.serviceMap['SimpleService']['SimpleService-123']).to.be.an('object');
 					}
 				);
 				test
@@ -117,16 +117,16 @@ suite
                         testFable.serviceManager.addServiceType('SimpleService', SimpleService);
                         let tmpSimpleService = testFable.serviceManager.instantiateServiceProvider('SimpleService', {SomeOption: true}, 'SimpleService-123');
 
-                        Expect(testFable.serviceManager.services['SimpleService']['SimpleService-123']).to.be.an('object');
+                        Expect(testFable.serviceManager.serviceMap['SimpleService']['SimpleService-123']).to.be.an('object');
 
                         // The passed-in magic stuff should work too.
-                        tmpSimpleService.log.info(`There were almost ${tmpSimpleService.defaultServices.DataFormat.formatterDollars(9821229.37)} dollars just lying here!`);
+                        tmpSimpleService.log.info(`There were almost ${tmpSimpleService.services.DataFormat.formatterDollars(9821229.37)} dollars just lying here!`);
 
-                        Expect(testFable.serviceManager.defaultServices['SimpleService']).to.be.an('object');
+                        Expect(testFable.serviceManager.serviceMap['SimpleService']).to.be.an('object');
 
-                        testFable.serviceManager.defaultServices.SimpleService.doSomething();
+                        testFable.serviceManager.services.SimpleService.doSomething();
 
-                        Expect(testFable.serviceManager.defaultServices['SimpleService'].Hash).to.equal('SimpleService-123');
+                        Expect(testFable.serviceManager.services['SimpleService'].Hash).to.equal('SimpleService-123');
 					}
 				);
                 test
@@ -140,9 +140,9 @@ suite
 
                         testFable.serviceManager.instantiateServiceProvider('SimpleService', {SomeOption: true}, 'SimpleService-13');
 
-                        testFable.serviceManager.services['SimpleService']['SimpleService-13'].doSomething();
+                        testFable.serviceManager.serviceMap['SimpleService']['SimpleService-13'].doSomething();
 
-                        Expect(testFable.serviceManager.services['SimpleService']['SimpleService-13']).to.be.an('object');
+                        Expect(testFable.serviceManager.serviceMap['SimpleService']['SimpleService-13']).to.be.an('object');
                     }
                 );
 
@@ -157,7 +157,7 @@ suite
 
                         let tmpService = testFable.serviceManager.instantiateServiceProviderWithoutRegistration('SimpleService', {SomeOption: true}, 'SimpleService-99');
 
-                        Expect(testFable.services.SimpleService['SimpleService-99']).to.be.an('undefined');
+                        Expect(testFable.serviceMap.SimpleService['SimpleService-99']).to.be.an('undefined');
 
                         Expect(tmpService).to.be.an('object');
                     }
@@ -174,25 +174,25 @@ suite
                         testFable.serviceManager.addServiceType('DatabaseService', MockDatabaseService);
 
                         testFable.serviceManager.instantiateServiceProvider('SimpleService', {SomeOption: true});
-                        testFable.serviceManager.defaultServices.SimpleService.doSomething();
+                        testFable.serviceManager.services.SimpleService.doSomething();
 
                         testFable.serviceManager.instantiateServiceProvider('DatabaseService', {ConnectionString: 'mongodb://localhost:27017/test'}, 'PrimaryConnection');
 
-                        Expect(testFable.serviceManager.defaultServices.DatabaseService.Hash).to.equal('PrimaryConnection');
+                        Expect(testFable.serviceManager.services.DatabaseService.Hash).to.equal('PrimaryConnection');
 
                         testFable.serviceManager.instantiateServiceProvider('DatabaseService', {ConnectionString: 'mongodb://localhost:27017/test'}, 'SecondaryConnection');
 
-                        Expect(testFable.serviceManager.defaultServices.DatabaseService.Hash).to.equal('PrimaryConnection');
+                        Expect(testFable.serviceManager.services.DatabaseService.Hash).to.equal('PrimaryConnection');
 
-                        testFable.serviceManager.defaultServices.DatabaseService.connect();
-                        testFable.serviceManager.defaultServices.DatabaseService.commit('Test Record');
+                        testFable.serviceManager.services.DatabaseService.connect();
+                        testFable.serviceManager.services.DatabaseService.commit('Test Record');
 
                         testFable.serviceManager.setDefaultServiceInstantiation('DatabaseService', 'SecondaryConnection');
 
-                        testFable.serviceManager.defaultServices.DatabaseService.connect();
-                        testFable.serviceManager.defaultServices.DatabaseService.commit('Another Test Record');
+                        testFable.serviceManager.services.DatabaseService.connect();
+                        testFable.serviceManager.services.DatabaseService.commit('Another Test Record');
 
-                        Expect(testFable.serviceManager.defaultServices.DatabaseService.Hash).to.equal('SecondaryConnection');
+                        Expect(testFable.serviceManager.services.DatabaseService.Hash).to.equal('SecondaryConnection');
                     }
                 );
 
@@ -237,10 +237,10 @@ suite
 
                         testFable.serviceManager.connectPreinitServiceProviderInstance(tmpCoreService);
 
-                        Expect(testFable.services.MockCoreService['MockCoreService-2']).to.be.an('object');
-                        Expect(testFable.defaultServices.MockCoreService).to.be.an('object');
+                        Expect(testFable.serviceMap.MockCoreService['MockCoreService-2']).to.be.an('object');
+                        Expect(testFable.services.MockCoreService).to.be.an('object');
 
-                        Expect(testFable.defaultServices.MockCoreService.fable.log).to.be.an('object');
+                        Expect(testFable.services.MockCoreService.fable.log).to.be.an('object');
                     }
                 )
 
@@ -267,25 +267,25 @@ suite
                         testFable.serviceManager.addServiceType('DatabaseService', MockDatabaseService);
 
                         testFable.serviceManager.instantiateServiceProvider('SimpleService', {SomeOption: true});
-                        testFable.serviceManager.defaultServices.SimpleService.doSomething();
+                        testFable.serviceManager.services.SimpleService.doSomething();
 
                         testFable.serviceManager.instantiateServiceProvider('DatabaseService', {ConnectionString: 'mongodb://localhost:27017/test'}, 'PrimaryConnection');
 
-                        Expect(testFable.serviceManager.defaultServices.DatabaseService.Hash).to.equal('PrimaryConnection');
+                        Expect(testFable.serviceManager.services.DatabaseService.Hash).to.equal('PrimaryConnection');
 
                         testFable.serviceManager.instantiateServiceProvider('DatabaseService', {ConnectionString: 'mongodb://localhost:27017/test'}, 'SecondaryConnection');
 
-                        Expect(testFable.serviceManager.defaultServices.DatabaseService.Hash).to.equal('PrimaryConnection');
+                        Expect(testFable.serviceManager.services.DatabaseService.Hash).to.equal('PrimaryConnection');
 
-                        testFable.serviceManager.defaultServices.DatabaseService.connect();
-                        testFable.serviceManager.defaultServices.DatabaseService.commit('Test Record');
+                        testFable.serviceManager.services.DatabaseService.connect();
+                        testFable.serviceManager.services.DatabaseService.commit('Test Record');
 
                         Expect(testFable.serviceManager.setDefaultServiceInstantiation('DatabaseService', 'TertiaryConnection')).to.be.false;
 
-                        testFable.serviceManager.defaultServices.DatabaseService.connect();
-                        testFable.serviceManager.defaultServices.DatabaseService.commit('Another Test Record');
+                        testFable.serviceManager.services.DatabaseService.connect();
+                        testFable.serviceManager.services.DatabaseService.commit('Another Test Record');
 
-                        Expect(testFable.serviceManager.defaultServices.DatabaseService.Hash).to.equal('PrimaryConnection');
+                        Expect(testFable.serviceManager.services.DatabaseService.Hash).to.equal('PrimaryConnection');
                     }
                 );
 			}

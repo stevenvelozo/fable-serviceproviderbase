@@ -28,8 +28,8 @@ class FableServiceProviderBase
 
 		// Pull back a few things
 		this.log = this.fable.log;
+		this.servicesMap = this.fable.serviceMap;
 		this.services = this.fable.services;
-		this.defaultServices = this.fable.defaultServices;
 	}
 
 	static isFableService = true;
