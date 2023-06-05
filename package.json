@@ -1,6 +1,6 @@
 {
   "name": "fable-serviceproviderbase",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "description": "Simple base classes for fable services.",
   "main": "source/Fable-ServiceProviderBase.js",
   "scripts": {

@@ -105,7 +105,7 @@ suite
                         testFable.serviceManager.addServiceType('SimpleService');
                         testFable.serviceManager.instantiateServiceProvider('SimpleService', {SomeOption: true}, 'SimpleService-123');
 
-                        Expect(testFable.serviceManager.serviceMap['SimpleService']['SimpleService-123']).to.be.an('object');
+                        Expect(testFable.serviceManager.servicesMap['SimpleService']['SimpleService-123']).to.be.an('object');
 					}
 				);
 				test
@@ -117,12 +117,12 @@ suite
                         testFable.serviceManager.addServiceType('SimpleService', SimpleService);
                         let tmpSimpleService = testFable.serviceManager.instantiateServiceProvider('SimpleService', {SomeOption: true}, 'SimpleService-123');
 
-                        Expect(testFable.serviceManager.serviceMap['SimpleService']['SimpleService-123']).to.be.an('object');
+                        Expect(testFable.serviceManager.servicesMap['SimpleService']['SimpleService-123']).to.be.an('object');
 
                         // The passed-in magic stuff should work too.
                         tmpSimpleService.log.info(`There were almost ${tmpSimpleService.services.DataFormat.formatterDollars(9821229.37)} dollars just lying here!`);
 
-                        Expect(testFable.serviceManager.serviceMap['SimpleService']).to.be.an('object');
+                        Expect(testFable.serviceManager.servicesMap['SimpleService']).to.be.an('object');
 
                         testFable.serviceManager.services.SimpleService.doSomething();
 
@@ -140,9 +140,9 @@ suite
 
                         testFable.serviceManager.instantiateServiceProvider('SimpleService', {SomeOption: true}, 'SimpleService-13');
 
-                        testFable.serviceManager.serviceMap['SimpleService']['SimpleService-13'].doSomething();
+                        testFable.serviceManager.servicesMap['SimpleService']['SimpleService-13'].doSomething();
 
-                        Expect(testFable.serviceManager.serviceMap['SimpleService']['SimpleService-13']).to.be.an('object');
+                        Expect(testFable.serviceManager.servicesMap['SimpleService']['SimpleService-13']).to.be.an('object');
                     }
                 );
 
@@ -157,7 +157,7 @@ suite
 
                         let tmpService = testFable.serviceManager.instantiateServiceProviderWithoutRegistration('SimpleService', {SomeOption: true}, 'SimpleService-99');
 
-                        Expect(testFable.serviceMap.SimpleService['SimpleService-99']).to.be.an('undefined');
+                        Expect(testFable.servicesMap.SimpleService['SimpleService-99']).to.be.an('undefined');
 
                         Expect(tmpService).to.be.an('object');
                     }
@@ -237,7 +237,7 @@ suite
 
                         testFable.serviceManager.connectPreinitServiceProviderInstance(tmpCoreService);
 
-                        Expect(testFable.serviceMap.MockCoreService['MockCoreService-2']).to.be.an('object');
+                        Expect(testFable.servicesMap.MockCoreService['MockCoreService-2']).to.be.an('object');
                         Expect(testFable.services.MockCoreService).to.be.an('object');
 
                         Expect(testFable.services.MockCoreService.fable.log).to.be.an('object');
