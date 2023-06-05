@@ -41,9 +41,9 @@
   },
   "homepage": "https://github.com/stevenvelozo/fable-serviceproviderbase",
   "devDependencies": {
-    "chai": "4.3.7",
-    "fable": "^3.0.67",
-    "mocha": "10.2.0",
-    "nyc": "^15.1.0"
+    "fable": "^3.0.67"
+  },
+  "dependencies": {
+    "quackage": "^1.0.14"
   }
 }
