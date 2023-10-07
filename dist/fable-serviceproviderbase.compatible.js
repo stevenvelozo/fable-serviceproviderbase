@@ -64,29 +64,26 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         // 2) With an object or nothing as the first parameter, where it will be treated as the options object
         function FableServiceProviderBase(pFable, pOptions, pServiceHash) {
           _classCallCheck(this, FableServiceProviderBase);
-          // Check if a fable was passed in
+          // Check if a fable was passed in; connect it if so
           if (_typeof(pFable) === 'object' && pFable.isFable) {
-            this.fable = pFable;
+            this.connectFable(pFable);
           } else {
             this.fable = false;
           }
+
+          // initialize options and UUID based on whether the fable was passed in or not.
           if (this.fable) {
-            this.connectFable(this.fable);
+            this.UUID = pFable.getUUID();
             this.options = _typeof(pOptions) === 'object' ? pOptions : {};
           } else {
             // With no fable, check to see if there was an object passed into either of the first two
             // Parameters, and if so, treat it as the options object
             this.options = _typeof(pFable) === 'object' && !pFable.isFable ? pFable : _typeof(pOptions) === 'object' ? pOptions : {};
+            this.UUID = "CORE-SVC-".concat(Math.floor(Math.random() * (99999 - 10000) + 10000));
           }
 
           // It's expected that the deriving class will set this
-          this.serviceType = 'Unknown';
-          if (this.fable) {
-            this.UUID = pFable.getUUID();
-          } else {
-            // Without any dependencies, get a decently random UUID for the service
-            this.UUID = "CORE-SVC-".concat(Math.floor(Math.random() * (99999 - 10000) + 10000));
-          }
+          this.serviceType = "Unknown-".concat(this.UUID);
 
           // The service hash is used to identify the specific instantiation of the service in the services map
           this.Hash = typeof pServiceHash === 'string' ? pServiceHash : !this.fable && typeof pOptions === 'string' ? pOptions : "".concat(this.UUID);
@@ -102,9 +99,15 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             if (!this.fable) {
               this.fable = pFable;
             }
-            this.log = this.fable.log;
-            this.servicesMap = this.fable.servicesMap;
-            this.services = this.fable.services;
+            if (!this.log) {
+              this.log = this.fable.Logging;
+            }
+            if (!this.services) {
+              this.services = this.fable.services;
+            }
+            if (!this.servicesMap) {
+              this.servicesMap = this.fable.servicesMap;
+            }
             return true;
           }
         }]);
@@ -113,7 +116,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
       _defineProperty(FableServiceProviderBase, "isFableService", true);
       module.exports = FableServiceProviderBase;
 
-      // This is left here in case we want to go back to having different code for "core" services
+      // This is left here in case we want to go back to having different code/base class for "core" services
       module.exports.CoreServiceProviderBase = FableServiceProviderBase;
     }, {}]
   }, {}, [1])(1);
