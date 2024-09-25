@@ -94,6 +94,10 @@ suite
                         tmpSimpleService.doSomething();
 
                         Expect(tmpSimpleService.Hash).to.be.a('string');
+
+                        Expect(tmpSimpleService._PackageFableServiceProvider).to.be.an('object');
+                        Expect(tmpSimpleService._PackageFableServiceProvider.name).to.equal('fable-serviceproviderbase');
+                        Expect(tmpSimpleService._PackageFableServiceProvider.version)
 					}
 				);
 				test

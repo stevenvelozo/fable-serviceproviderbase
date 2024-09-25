@@ -1,6 +1,6 @@
 {
     "name": "fable-serviceproviderbase",
-    "version": "3.0.13",
+    "version": "3.0.14",
     "description": "Simple base classes for fable services.",
     "main": "source/Fable-ServiceProviderBase.js",
     "scripts": {
@@ -43,7 +43,7 @@
     },
     "homepage": "https://github.com/stevenvelozo/fable-serviceproviderbase",
     "devDependencies": {
-        "fable": "^3.0.118",
-        "quackage": "^1.0.28"
+        "fable": "^3.0.143",
+        "quackage": "^1.0.33"
     }
 }

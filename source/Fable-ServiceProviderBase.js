@@ -20,6 +20,9 @@ class FableServiceProviderBase
 			this.fable = false;
 		}
 
+		// Initialize the services map if it wasn't passed in
+		this._PackageFableServiceProvider = require('../package.json');
+
 		// initialize options and UUID based on whether the fable was passed in or not.
 		if (this.fable)
 		{
