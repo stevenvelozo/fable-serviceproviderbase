@@ -3,6 +3,8 @@
 * @author <steven@velozo.com>
 */
 
+const libPackage = require('../package.json');
+
 class FableServiceProviderBase
 {
 	// The constructor can be used in two ways:
@@ -21,7 +23,8 @@ class FableServiceProviderBase
 		}
 
 		// Initialize the services map if it wasn't passed in
-		this._PackageFableServiceProvider = require('../package.json');
+		/** @type {Object} */
+		this._PackageFableServiceProvider = libPackage;
 
 		// initialize options and UUID based on whether the fable was passed in or not.
 		if (this.fable)
