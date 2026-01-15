@@ -9,11 +9,16 @@
 const libFable = require('fable');
 const libFableServiceProviderBase = require('../source/Fable-ServiceProviderBase.js');
 
-const Chai = require("chai");
+const Chai = require('chai');
 const Expect = Chai.expect;
 
 class SimpleService extends libFableServiceProviderBase
 {
+    /**
+	 * @param {import('fable')|Record<string, any>} pFable - The fable instance, or the options object if there is no fable
+	 * @param {Record<string, any>|string} [pOptions] - (optional) The options object, or the service hash if there is no fable
+	 * @param {string} [pServiceHash] - (optional) The service hash to identify this service instance
+     */
     constructor(pFable, pOptions, pServiceHash)
     {
         super(pFable, pOptions, pServiceHash);
@@ -29,6 +34,11 @@ class SimpleService extends libFableServiceProviderBase
 
 class MockDatabaseService extends libFableServiceProviderBase
 {
+    /**
+	 * @param {import('fable')|Record<string, any>} pFable - The fable instance, or the options object if there is no fable
+	 * @param {Record<string, any>|string} [pOptions] - (optional) The options object, or the service hash if there is no fable
+	 * @param {string} [pServiceHash] - (optional) The service hash to identify this service instance
+     */
     constructor(pFable, pOptions, pServiceHash)
     {
         super(pFable, pOptions, pServiceHash);
@@ -49,6 +59,10 @@ class MockDatabaseService extends libFableServiceProviderBase
 
 class MockCoreService extends libFableServiceProviderBase.CoreServiceProviderBase
 {
+    /**
+	 * @param {Record<string, any>|string} [pOptions] - (optional) The options object, or the service hash if there is no fable
+	 * @param {string} [pServiceHash] - (optional) The service hash to identify this service instance
+     */
     constructor(pOptions, pServiceHash)
     {
         super(pOptions, pServiceHash);
@@ -68,6 +82,7 @@ suite
 	'Fable Service Manager',
 	function()
 	{
+        /** @type {import('fable')} */
 		var testFable = false;
 
 		setup

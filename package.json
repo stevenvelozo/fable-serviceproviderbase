@@ -8,8 +8,11 @@
         "test": "npx mocha -u tdd -R spec",
         "tests": "npx mocha -u tdd --exit -R spec --grep",
         "coverage": "npx nyc --reporter=lcov --reporter=text-lcov npx mocha -- -u tdd -R spec",
-        "build": "npx quack build"
+        "build": "npx quack build",
+        "types": "tsc -p ./tsconfig.build.json",
+        "check": "tsc -p . --noEmit"
     },
+    "types": "types/source/Fable-ServiceProviderBase.d.ts",
     "mocha": {
         "diff": true,
         "extension": [
@@ -43,7 +46,9 @@
     },
     "homepage": "https://github.com/stevenvelozo/fable-serviceproviderbase",
     "devDependencies": {
-        "fable": "^3.0.143",
-        "quackage": "^1.0.33"
+        "@types/mocha": "^10.0.10",
+        "fable": "^3.1.51",
+        "quackage": "^1.0.45",
+        "typescript": "^5.9.3"
     }
 }

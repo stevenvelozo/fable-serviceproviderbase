@@ -7,11 +7,28 @@ const libPackage = require('../package.json');
 
 class FableServiceProviderBase
 {
-	// The constructor can be used in two ways:
-	// 1) With a fable, options object and service hash (the options object and service hash are optional)
-	// 2) With an object or nothing as the first parameter, where it will be treated as the options object
+	/**
+	 * The constructor can be used in two ways:
+	 * 1) With a fable, options object and service hash (the options object and service hash are optional)a
+	 * 2) With an object or nothing as the first parameter, where it will be treated as the options object
+	 *
+	 * @param {import('fable')|Record<string, any>} [pFable] - (optional) The fable instance, or the options object if there is no fable
+	 * @param {Record<string, any>|string} [pOptions] - (optional) The options object, or the service hash if there is no fable
+	 * @param {string} [pServiceHash] - (optional) The service hash to identify this service instance
+	 */
 	constructor(pFable, pOptions, pServiceHash)
 	{
+		/** @type {import('fable')} */
+		this.fable;
+		/** @type {string} */
+		this.UUID;
+		/** @type {Record<string, any>} */
+		this.options;
+		/** @type {Record<string, any>} */
+		this.services;
+		/** @type {Record<string, any>} */
+		this.servicesMap;
+
 		// Check if a fable was passed in; connect it if so
 		if ((typeof(pFable) === 'object') && pFable.isFable)
 		{
@@ -23,7 +40,7 @@ class FableServiceProviderBase
 		}
 
 		// Initialize the services map if it wasn't passed in
-		/** @type {Object} */
+		/** @type {Record<string, any>} */
 		this._PackageFableServiceProvider = libPackage;
 
 		// initialize options and UUID based on whether the fable was passed in or not.
@@ -52,6 +69,9 @@ class FableServiceProviderBase
 					: `${this.UUID}`;
 	}
 
+	/**
+	 * @param {import('fable')} pFable
+	 */
 	connectFable(pFable)
 	{
 		if ((typeof(pFable) !== 'object') || (!pFable.isFable))
