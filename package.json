@@ -48,7 +48,7 @@
     "devDependencies": {
         "@types/mocha": "^10.0.10",
         "fable": "^3.1.55",
-        "quackage": "^1.0.51",
+        "quackage": "^1.0.58",
         "typescript": "^5.9.3"
     }
 }
