@@ -1,6 +1,6 @@
 # Fable Service Provider Base
 
-The base class for all services in the Fable ecosystem. Provides a standard interface for dependency injection, options handling, unique identification, and lifecycle management — used to build database connectors, API servers, template engines, view controllers, and any other service that plugs into a Fable application.
+The base class for all services in the Fable ecosystem. Provides a standard interface for dependency injection, options handling, unique identification, and lifecycle management -- used to build database connectors, API servers, template engines, view controllers, and any other service that plugs into a Fable application.
 
 [![Build Status](https://github.com/stevenvelozo/fable-serviceproviderbase/workflows/Fable-ServiceProviderBase/badge.svg)](https://github.com/stevenvelozo/fable-serviceproviderbase/actions)
 [![npm version](https://badge.fury.io/js/fable-serviceproviderbase.svg)](https://badge.fury.io/js/fable-serviceproviderbase)
@@ -176,7 +176,7 @@ new FableServiceProviderBase(pFable, pOptions, pServiceHash)
 
 | Property | Type | Description |
 |----------|------|-------------|
-| `isFableService` | `Boolean` | Always `true` — used to identify Fable service classes |
+| `isFableService` | `Boolean` | Always `true` -- used to identify Fable service classes |
 
 ### Exports
 

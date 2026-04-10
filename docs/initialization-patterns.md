@@ -115,9 +115,9 @@ The service works but has no access to Fable's logging, configuration, or other 
 The constructor uses a simple heuristic: if the first parameter is an object with an `isFable` property set to `true`, it treats it as a Fable instance. Otherwise, the first parameter is treated as the options object.
 
 ```
-new Service(fable, options, hash)   →  fable.isFable is true  →  Pattern 1
-new Service(options, hash)          →  options.isFable is falsy →  Pattern 2/3
-new Service()                       →  no arguments             →  Pattern 3
+new Service(fable, options, hash)   ->  fable.isFable is true  ->  Pattern 1
+new Service(options, hash)          ->  options.isFable is falsy ->  Pattern 2/3
+new Service()                       ->  no arguments             ->  Pattern 3
 ```
 
 The `pServiceHash` parameter sets `this.Hash`. If omitted, the hash defaults to the UUID. When no Fable is present, if the second parameter is a string, it is used as the hash.
