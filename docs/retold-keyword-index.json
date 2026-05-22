@@ -1,6 +1,7 @@
 {
-	"Generated": "2026-04-10T17:19:19.541Z",
-	"DocumentCount": 0,
+	"Generated": "2026-05-22T05:38:25.487Z",
+	"Mode": "module",
+	"DocumentCount": 5,
 	"LunrIndex": {
 		"version": "2.3.9",
 		"fields": [
@@ -9,11 +10,3043 @@
 			"group",
 			"body"
 		],
-		"fieldVectors": [],
-		"invertedIndex": [],
+		"fieldVectors": [
+			[
+				"title/README.md",
+				[
+					0,
+					4.008,
+					1,
+					2.339,
+					2,
+					1.654,
+					3,
+					2.339
+				]
+			],
+			[
+				"module/README.md",
+				[
+					0,
+					2.209,
+					4,
+					0.371
+				]
+			],
+			[
+				"group/README.md",
+				[]
+			],
+			[
+				"body/README.md",
+				[
+					0,
+					0.866,
+					1,
+					0.52,
+					2,
+					0.294,
+					3,
+					0.366,
+					5,
+					0.408,
+					6,
+					0.918,
+					7,
+					0.765,
+					8,
+					1.453,
+					9,
+					0.918,
+					10,
+					0.565,
+					11,
+					0.918,
+					12,
+					0.918,
+					13,
+					0.565,
+					14,
+					1.453,
+					15,
+					0.535,
+					16,
+					0.565,
+					17,
+					1.453,
+					18,
+					0.15,
+					19,
+					0.765,
+					20,
+					0.918,
+					21,
+					0.565,
+					22,
+					0.302,
+					23,
+					0.302,
+					24,
+					0.868,
+					25,
+					1.453,
+					26,
+					0.565,
+					27,
+					0.918,
+					28,
+					1.243,
+					29,
+					0.302,
+					30,
+					0.765,
+					31,
+					0.918,
+					32,
+					0.565,
+					33,
+					0.765,
+					34,
+					0.765,
+					35,
+					0.918,
+					36,
+					1.453,
+					37,
+					0.565,
+					38,
+					1.453,
+					39,
+					1.453,
+					40,
+					0.918,
+					41,
+					0.565,
+					42,
+					1.453,
+					43,
+					1.41,
+					44,
+					0.15,
+					45,
+					0.519,
+					46,
+					0.918,
+					47,
+					0.918,
+					48,
+					0.918,
+					49,
+					1.243,
+					50,
+					0.918,
+					51,
+					0.918,
+					52,
+					0.918,
+					53,
+					0.918,
+					54,
+					0.565,
+					55,
+					0.918,
+					56,
+					0.302,
+					57,
+					1.453,
+					58,
+					0.918,
+					59,
+					0.918,
+					60,
+					0.918,
+					61,
+					0.765,
+					62,
+					0.918,
+					63,
+					0.302,
+					64,
+					0.918,
+					65,
+					0.918,
+					66,
+					0.302,
+					67,
+					0.14,
+					68,
+					1.453,
+					69,
+					1.243,
+					70,
+					0.765,
+					71,
+					1.453,
+					72,
+					1.453,
+					73,
+					1.453,
+					74,
+					1.453,
+					75,
+					0.302,
+					76,
+					0.918,
+					77,
+					1.453,
+					78,
+					1.453,
+					79,
+					0.918
+				]
+			],
+			[
+				"title/_cover.md",
+				[
+					0,
+					4.008,
+					1,
+					2.339,
+					2,
+					1.654,
+					3,
+					2.339
+				]
+			],
+			[
+				"module/_cover.md",
+				[
+					0,
+					2.209,
+					4,
+					0.371
+				]
+			],
+			[
+				"group/_cover.md",
+				[]
+			],
+			[
+				"body/_cover.md",
+				[
+					0,
+					0.855,
+					1,
+					0.509,
+					2,
+					0.299,
+					3,
+					0.423,
+					5,
+					0.515,
+					6,
+					1.143,
+					7,
+					0.704,
+					9,
+					1.143,
+					10,
+					0.883,
+					11,
+					1.435,
+					12,
+					1.143,
+					13,
+					0.704,
+					15,
+					0.472,
+					18,
+					0.114,
+					22,
+					0.472,
+					23,
+					0.472,
+					24,
+					0.704,
+					26,
+					0.704,
+					29,
+					0.472,
+					30,
+					0.883,
+					34,
+					0.704,
+					40,
+					1.143,
+					44,
+					0.114,
+					46,
+					1.143,
+					56,
+					0.376,
+					61,
+					0.704,
+					63,
+					0.376,
+					65,
+					1.143,
+					66,
+					0.376,
+					67,
+					0.114,
+					75,
+					0.376,
+					79,
+					1.143,
+					80,
+					1.811,
+					81,
+					1.811,
+					82,
+					1.811,
+					83,
+					1.811,
+					84,
+					1.811,
+					85,
+					1.811,
+					86,
+					1.811,
+					87,
+					1.811,
+					88,
+					1.143,
+					89,
+					1.811,
+					90,
+					1.811,
+					91,
+					1.143
+				]
+			],
+			[
+				"title/_topbar.md",
+				[
+					0,
+					4.008,
+					1,
+					2.339,
+					2,
+					1.654,
+					3,
+					2.339
+				]
+			],
+			[
+				"module/_topbar.md",
+				[
+					0,
+					2.209,
+					4,
+					0.371
+				]
+			],
+			[
+				"group/_topbar.md",
+				[]
+			],
+			[
+				"body/_topbar.md",
+				[
+					0,
+					0.721,
+					1,
+					0.421,
+					2,
+					0.298,
+					3,
+					0.421,
+					18,
+					0.142,
+					67,
+					0.142,
+					91,
+					1.429,
+					92,
+					2.262
+				]
+			],
+			[
+				"title/api.md",
+				[
+					18,
+					1.028,
+					67,
+					1.028
+				]
+			],
+			[
+				"module/api.md",
+				[
+					0,
+					2.209,
+					4,
+					0.371
+				]
+			],
+			[
+				"group/api.md",
+				[]
+			],
+			[
+				"body/api.md",
+				[
+					0,
+					0.86,
+					1,
+					0.514,
+					2,
+					0.237,
+					3,
+					0.184,
+					4,
+					0.053,
+					5,
+					0.47,
+					7,
+					0.385,
+					13,
+					0.385,
+					15,
+					0.556,
+					16,
+					1.138,
+					18,
+					0.135,
+					19,
+					0.385,
+					20,
+					0.945,
+					21,
+					0.385,
+					22,
+					0.206,
+					23,
+					0.206,
+					24,
+					0.582,
+					26,
+					0.385,
+					27,
+					0.626,
+					28,
+					1.138,
+					29,
+					0.206,
+					30,
+					1.041,
+					31,
+					0.626,
+					32,
+					0.997,
+					33,
+					0.582,
+					34,
+					0.582,
+					35,
+					1.138,
+					37,
+					0.385,
+					41,
+					0.78,
+					44,
+					0.113,
+					45,
+					0.206,
+					49,
+					0.626,
+					50,
+					0.626,
+					54,
+					0.385,
+					56,
+					0.31,
+					61,
+					0.385,
+					62,
+					0.626,
+					63,
+					0.206,
+					64,
+					0.945,
+					66,
+					0.374,
+					67,
+					0.062,
+					69,
+					0.945,
+					70,
+					0.7,
+					75,
+					0.374,
+					76,
+					0.626,
+					93,
+					0.991,
+					94,
+					0.991,
+					95,
+					1.267,
+					96,
+					1.496,
+					97,
+					2.6,
+					98,
+					1.529,
+					99,
+					1.138,
+					100,
+					0.991,
+					101,
+					1.431,
+					102,
+					0.991,
+					103,
+					0.991,
+					104,
+					1.267,
+					105,
+					1.138,
+					106,
+					0.626,
+					107,
+					0.991,
+					108,
+					0.626,
+					109,
+					1.267,
+					110,
+					0.991,
+					111,
+					0.991,
+					112,
+					0.626,
+					113,
+					0.991,
+					114,
+					0.991,
+					115,
+					0.991,
+					116,
+					1.496,
+					117,
+					1.496,
+					118,
+					0.991,
+					119,
+					0.991,
+					120,
+					0.991,
+					121,
+					0.991,
+					122,
+					0.991,
+					123,
+					0.991,
+					124,
+					0.991,
+					125,
+					1.496,
+					126,
+					0.626,
+					127,
+					2.007,
+					128,
+					0.991,
+					129,
+					0.626,
+					130,
+					0.991,
+					131,
+					0.991,
+					132,
+					0.945,
+					133,
+					0.991,
+					134,
+					0.991,
+					135,
+					0.626,
+					136,
+					0.991,
+					137,
+					1.496,
+					138,
+					0.626,
+					139,
+					0.991,
+					140,
+					0.945,
+					141,
+					0.626,
+					142,
+					0.991,
+					143,
+					0.626
+				]
+			],
+			[
+				"title/initialization-patterns.md",
+				[
+					44,
+					1.028,
+					45,
+					3.398
+				]
+			],
+			[
+				"module/initialization-patterns.md",
+				[
+					0,
+					2.209,
+					4,
+					0.371
+				]
+			],
+			[
+				"group/initialization-patterns.md",
+				[]
+			],
+			[
+				"body/initialization-patterns.md",
+				[
+					0,
+					0.846,
+					1,
+					0.473,
+					3,
+					0.203,
+					5,
+					0.334,
+					10,
+					0.425,
+					15,
+					0.487,
+					16,
+					1.163,
+					19,
+					0.425,
+					21,
+					0.626,
+					22,
+					0.334,
+					23,
+					0.227,
+					29,
+					0.227,
+					32,
+					0.743,
+					33,
+					0.743,
+					37,
+					0.425,
+					41,
+					0.743,
+					43,
+					1.016,
+					44,
+					0.141,
+					45,
+					0.466,
+					47,
+					0.69,
+					48,
+					0.69,
+					51,
+					0.69,
+					52,
+					0.69,
+					53,
+					1.016,
+					54,
+					0.425,
+					55,
+					0.69,
+					56,
+					0.334,
+					58,
+					0.69,
+					59,
+					0.69,
+					60,
+					0.69,
+					63,
+					0.396,
+					66,
+					0.334,
+					70,
+					0.873,
+					75,
+					0.466,
+					88,
+					0.69,
+					95,
+					1.418,
+					98,
+					1.206,
+					99,
+					1.016,
+					101,
+					0.69,
+					104,
+					0.69,
+					105,
+					1.206,
+					106,
+					1.016,
+					108,
+					0.69,
+					109,
+					0.69,
+					112,
+					1.016,
+					126,
+					0.69,
+					129,
+					0.69,
+					132,
+					1.016,
+					135,
+					1.331,
+					138,
+					0.69,
+					140,
+					1.016,
+					141,
+					0.69,
+					143,
+					0.69,
+					144,
+					1.093,
+					145,
+					1.609,
+					146,
+					1.093,
+					147,
+					1.093,
+					148,
+					1.093,
+					149,
+					1.093,
+					150,
+					1.91,
+					151,
+					1.093,
+					152,
+					1.093,
+					153,
+					1.093,
+					154,
+					1.093,
+					155,
+					1.609,
+					156,
+					1.093,
+					157,
+					1.093,
+					158,
+					1.093,
+					159,
+					1.093,
+					160,
+					1.093,
+					161,
+					1.093,
+					162,
+					1.093,
+					163,
+					1.093,
+					164,
+					1.093,
+					165,
+					1.093,
+					166,
+					1.093,
+					167,
+					1.609,
+					168,
+					1.093,
+					169,
+					1.093,
+					170,
+					1.093,
+					171,
+					1.093
+				]
+			]
+		],
+		"invertedIndex": [
+			[
+				"",
+				{
+					"_index": 16,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"1",
+				{
+					"_index": 149,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"2",
+				{
+					"_index": 152,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"3",
+				{
+					"_index": 161,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"5",
+				{
+					"_index": 156,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"access",
+				{
+					"_index": 23,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"accordingli",
+				{
+					"_index": 148,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"adjust",
+				{
+					"_index": 147,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"alia",
+				{
+					"_index": 140,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"alreadi",
+				{
+					"_index": 127,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"api",
+				{
+					"_index": 67,
+					"title": {
+						"api.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"_topbar.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"applic",
+				{
+					"_index": 52,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"argument",
+				{
+					"_index": 151,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"auto",
+				{
+					"_index": 36,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"avail",
+				{
+					"_index": 100,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"base",
+				{
+					"_index": 3,
+					"title": {
+						"README.md": {},
+						"_cover.md": {},
+						"_topbar.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"_topbar.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"befor",
+				{
+					"_index": 56,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"behavior",
+				{
+					"_index": 126,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"boolean",
+				{
+					"_index": 134,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"build",
+				{
+					"_index": 142,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"call",
+				{
+					"_index": 129,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"check",
+				{
+					"_index": 121,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"class",
+				{
+					"_index": 5,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"combin",
+				{
+					"_index": 103,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"complet",
+				{
+					"_index": 68,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"compos",
+				{
+					"_index": 78,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"configur",
+				{
+					"_index": 29,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"connect",
+				{
+					"_index": 104,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"connectfable(pf",
+				{
+					"_index": 122,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"construct",
+				{
+					"_index": 75,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"constructor",
+				{
+					"_index": 33,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"content",
+				{
+					"_index": 119,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"context",
+				{
+					"_index": 60,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"contract",
+				{
+					"_index": 8,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"core",
+				{
+					"_index": 54,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"coreserviceproviderbas",
+				{
+					"_index": 139,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"creat",
+				{
+					"_index": 62,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"data",
+				{
+					"_index": 82,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"default",
+				{
+					"_index": 109,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"depend",
+				{
+					"_index": 10,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"descript",
+				{
+					"_index": 97,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"design",
+				{
+					"_index": 143,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"detail",
+				{
+					"_index": 50,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"detect",
+				{
+					"_index": 145,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"differ",
+				{
+					"_index": 65,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"digit",
+				{
+					"_index": 157,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"discov",
+				{
+					"_index": 86,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"document",
+				{
+					"_index": 71,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"dure",
+				{
+					"_index": 113,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"each",
+				{
+					"_index": 64,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"ecosystem",
+				{
+					"_index": 79,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"everyth",
+				{
+					"_index": 164,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"exampl",
+				{
+					"_index": 154,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"exist",
+				{
+					"_index": 132,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"export",
+				{
+					"_index": 137,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"extend",
+				{
+					"_index": 7,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"fabl",
+				{
+					"_index": 0,
+					"title": {
+						"README.md": {},
+						"_cover.md": {},
+						"_topbar.md": {}
+					},
+					"module": {
+						"README.md": {},
+						"_cover.md": {},
+						"_topbar.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"_topbar.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"fable'",
+				{
+					"_index": 21,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"fableserviceproviderbas",
+				{
+					"_index": 93,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"first",
+				{
+					"_index": 150,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"flag",
+				{
+					"_index": 136,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"flexibl",
+				{
+					"_index": 46,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"foundat",
+				{
+					"_index": 80,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"full",
+				{
+					"_index": 25,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"fulli",
+				{
+					"_index": 153,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"gain",
+				{
+					"_index": 17,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"gener",
+				{
+					"_index": 37,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"github",
+				{
+					"_index": 91,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"_topbar.md": {}
+					}
+				}
+			],
+			[
+				"handl",
+				{
+					"_index": 144,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"hash",
+				{
+					"_index": 66,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"heurist",
+				{
+					"_index": 166,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"id",
+				{
+					"_index": 38,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"idempot",
+				{
+					"_index": 128,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"identifi",
+				{
+					"_index": 35,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"import",
+				{
+					"_index": 94,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"initi",
+				{
+					"_index": 44,
+					"title": {
+						"initialization-patterns.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"inject",
+				{
+					"_index": 11,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"instanc",
+				{
+					"_index": 15,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"instanti",
+				{
+					"_index": 85,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"isfableservic",
+				{
+					"_index": 133,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"itself",
+				{
+					"_index": 138,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"later",
+				{
+					"_index": 155,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"learn",
+				{
+					"_index": 72,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"level",
+				{
+					"_index": 116,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"lifecycl",
+				{
+					"_index": 12,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"lightweight",
+				{
+					"_index": 81,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"log",
+				{
+					"_index": 22,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"look",
+				{
+					"_index": 107,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"manag",
+				{
+					"_index": 13,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"map",
+				{
+					"_index": 27,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"member",
+				{
+					"_index": 77,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"method",
+				{
+					"_index": 69,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"mode",
+				{
+					"_index": 48,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"more",
+				{
+					"_index": 73,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"multipl",
+				{
+					"_index": 61,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"name",
+				{
+					"_index": 31,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"need",
+				{
+					"_index": 55,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"non",
+				{
+					"_index": 59,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"note",
+				{
+					"_index": 159,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"number",
+				{
+					"_index": 158,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"object",
+				{
+					"_index": 98,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"omit",
+				{
+					"_index": 169,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"option",
+				{
+					"_index": 99,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"otherwis",
+				{
+					"_index": 168,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"overview",
+				{
+					"_index": 92,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_topbar.md": {}
+					}
+				}
+			],
+			[
+				"overwrit",
+				{
+					"_index": 131,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"packagefableserviceprovid",
+				{
+					"_index": 118,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"paramet",
+				{
+					"_index": 95,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"pass",
+				{
+					"_index": 112,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"pattern",
+				{
+					"_index": 45,
+					"title": {
+						"initialization-patterns.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"pre",
+				{
+					"_index": 53,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"present",
+				{
+					"_index": 170,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"properti",
+				{
+					"_index": 70,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"provid",
+				{
+					"_index": 2,
+					"title": {
+						"README.md": {},
+						"_cover.md": {},
+						"_topbar.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"_topbar.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"quick",
+				{
+					"_index": 39,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"random",
+				{
+					"_index": 106,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"readabl",
+				{
+					"_index": 141,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"readi",
+				{
+					"_index": 57,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"refer",
+				{
+					"_index": 18,
+					"title": {
+						"api.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"_topbar.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"regist",
+				{
+					"_index": 24,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"registr",
+				{
+					"_index": 9,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"registri",
+				{
+					"_index": 26,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"requir",
+				{
+					"_index": 96,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"retold",
+				{
+					"_index": 6,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"return",
+				{
+					"_index": 117,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"run",
+				{
+					"_index": 89,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"same",
+				{
+					"_index": 63,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"second",
+				{
+					"_index": 171,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"see",
+				{
+					"_index": 49,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"servic",
+				{
+					"_index": 1,
+					"title": {
+						"README.md": {},
+						"_cover.md": {},
+						"_topbar.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"_topbar.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"serviceproviderbas",
+				{
+					"_index": 4,
+					"title": {},
+					"module": {
+						"README.md": {},
+						"_cover.md": {},
+						"_topbar.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"servicesmap",
+				{
+					"_index": 114,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"servicetyp",
+				{
+					"_index": 110,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"set",
+				{
+					"_index": 32,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"sever",
+				{
+					"_index": 90,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"shortcut",
+				{
+					"_index": 20,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"shorthand",
+				{
+					"_index": 42,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"signal",
+				{
+					"_index": 160,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"simpl",
+				{
+					"_index": 165,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"specif",
+				{
+					"_index": 28,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"standalon",
+				{
+					"_index": 19,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"standard",
+				{
+					"_index": 51,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"start",
+				{
+					"_index": 40,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"static",
+				{
+					"_index": 76,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"string",
+				{
+					"_index": 101,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"subclass",
+				{
+					"_index": 111,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"success",
+				{
+					"_index": 124,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"support",
+				{
+					"_index": 47,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"test",
+				{
+					"_index": 58,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"three",
+				{
+					"_index": 43,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"through",
+				{
+					"_index": 84,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"time",
+				{
+					"_index": 130,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"treat",
+				{
+					"_index": 167,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"two",
+				{
+					"_index": 115,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"type",
+				{
+					"_index": 30,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"uniqu",
+				{
+					"_index": 34,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"up",
+				{
+					"_index": 108,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"us",
+				{
+					"_index": 41,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"usag",
+				{
+					"_index": 102,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"uuid",
+				{
+					"_index": 105,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"valid",
+				{
+					"_index": 125,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"valu",
+				{
+					"_index": 135,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"version",
+				{
+					"_index": 120,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			],
+			[
+				"via",
+				{
+					"_index": 87,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"view",
+				{
+					"_index": 83,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"way",
+				{
+					"_index": 74,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"whether",
+				{
+					"_index": 146,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"wire",
+				{
+					"_index": 163,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"within",
+				{
+					"_index": 14,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"without",
+				{
+					"_index": 88,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"work",
+				{
+					"_index": 162,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"initialization-patterns.md": {}
+					}
+				}
+			],
+			[
+				"ye",
+				{
+					"_index": 123,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"api.md": {}
+					}
+				}
+			]
+		],
 		"pipeline": [
 			"stemmer"
 		]
 	},
-	"Documents": {}
+	"Documents": {
+		"README.md": {
+			"Title": "Fable Service Provider Base",
+			"Module": "fable-serviceproviderbase",
+			"Group": "",
+			"DocPath": "README.md"
+		},
+		"_cover.md": {
+			"Title": "Fable Service Provider Base",
+			"Module": "fable-serviceproviderbase",
+			"Group": "",
+			"DocPath": "_cover.md"
+		},
+		"_topbar.md": {
+			"Title": "Fable Service Provider Base",
+			"Module": "fable-serviceproviderbase",
+			"Group": "",
+			"DocPath": "_topbar.md"
+		},
+		"api.md": {
+			"Title": "API Reference",
+			"Module": "fable-serviceproviderbase",
+			"Group": "",
+			"DocPath": "api.md"
+		},
+		"initialization-patterns.md": {
+			"Title": "Initialization Patterns",
+			"Module": "fable-serviceproviderbase",
+			"Group": "",
+			"DocPath": "initialization-patterns.md"
+		}
+	}
 }
