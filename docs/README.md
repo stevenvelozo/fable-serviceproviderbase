@@ -108,4 +108,4 @@ See the [API Reference](api.md) for complete method and property documentation.
 
 - [Initialization Patterns](initialization-patterns.md) -- The three ways to construct a service
 - [API Reference](api.md) -- Properties, methods, and static members
-- [Fable Service Provider Pattern](/fable/fable/) -- How services compose in the Fable ecosystem
+- [Fable Service Provider Pattern](https://stevenvelozo.github.io/fable/) -- How services compose in the Fable ecosystem
