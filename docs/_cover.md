@@ -11,4 +11,4 @@ A lightweight base class that provides registration, dependency injection, and l
 
 [Get Started](README.md)
 [API Reference](api.md)
-[GitHub](https://github.com/stevenvelozo/fable-serviceproviderbase)
+[GitHub](https://github.com/fable-retold/fable-serviceproviderbase)

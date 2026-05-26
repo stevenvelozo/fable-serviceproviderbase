@@ -1,10 +1,10 @@
 # Fable Service Provider Base
 
-> **[&#9654; Read the Fable-Serviceproviderbase Documentation](https://stevenvelozo.github.io/fable-serviceproviderbase/)** &mdash; interactive docs with the full API reference.
+> **[&#9654; Read the Fable-Serviceproviderbase Documentation](https://fable-retold.github.io/fable-serviceproviderbase/)** &mdash; interactive docs with the full API reference.
 
 The base class for all services in the Fable ecosystem. Provides a standard interface for dependency injection, options handling, unique identification, and lifecycle management -- used to build database connectors, API servers, template engines, view controllers, and any other service that plugs into a Fable application.
 
-[![Build Status](https://github.com/stevenvelozo/fable-serviceproviderbase/workflows/Fable-ServiceProviderBase/badge.svg)](https://github.com/stevenvelozo/fable-serviceproviderbase/actions)
+[![Build Status](https://github.com/fable-retold/fable-serviceproviderbase/workflows/Fable-ServiceProviderBase/badge.svg)](https://github.com/fable-retold/fable-serviceproviderbase/actions)
 [![npm version](https://badge.fury.io/js/fable-serviceproviderbase.svg)](https://badge.fury.io/js/fable-serviceproviderbase)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -191,12 +191,12 @@ new FableServiceProviderBase(pFable, pOptions, pServiceHash)
 
 Fable Service Provider Base is the foundation class for all services in the ecosystem:
 
-- [fable](https://github.com/stevenvelozo/fable) - Application services framework and service manager
-- [fable-log](https://github.com/stevenvelozo/fable-log) - Logging framework (core service)
-- [fable-uuid](https://github.com/stevenvelozo/fable-uuid) - UUID generation (core service)
-- [meadow](https://github.com/stevenvelozo/meadow) - ORM built as Fable services
-- [orator](https://github.com/stevenvelozo/orator) - API server built as Fable services
-- [pict](https://github.com/stevenvelozo/pict) - MVC framework built as Fable services
+- [fable](https://github.com/fable-retold/fable) - Application services framework and service manager
+- [fable-log](https://github.com/fable-retold/fable-log) - Logging framework (core service)
+- [fable-uuid](https://github.com/fable-retold/fable-uuid) - UUID generation (core service)
+- [meadow](https://github.com/fable-retold/meadow) - ORM built as Fable services
+- [orator](https://github.com/fable-retold/orator) - API server built as Fable services
+- [pict](https://github.com/fable-retold/pict) - MVC framework built as Fable services
 
 ## Testing
 
@@ -214,7 +214,7 @@ npm run coverage
 
 ## Related Packages
 
-- [fable](https://github.com/stevenvelozo/fable) - Application services framework
+- [fable](https://github.com/fable-retold/fable) - Application services framework
 
 ## License
 
