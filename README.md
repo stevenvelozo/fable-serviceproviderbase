@@ -4,9 +4,7 @@
 
 The base class for all services in the Fable ecosystem. Provides a standard interface for dependency injection, options handling, unique identification, and lifecycle management -- used to build database connectors, API servers, template engines, view controllers, and any other service that plugs into a Fable application.
 
-[![Build Status](https://github.com/fable-retold/fable-serviceproviderbase/workflows/Fable-ServiceProviderBase/badge.svg)](https://github.com/fable-retold/fable-serviceproviderbase/actions)
-[![npm version](https://badge.fury.io/js/fable-serviceproviderbase.svg)](https://badge.fury.io/js/fable-serviceproviderbase)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[fable-serviceproviderbase on npm](https://www.npmjs.com/package/fable-serviceproviderbase) | [MIT License](LICENSE)
 
 ---
 
