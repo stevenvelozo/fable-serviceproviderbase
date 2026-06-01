@@ -1,6 +1,6 @@
 # Fable Service Provider Base
 
-> **[&#9654; Read the Fable-Serviceproviderbase Documentation](https://fable-retold.github.io/fable-serviceproviderbase/)** &mdash; interactive docs with the full API reference.
+> **[Read the Fable-Serviceproviderbase Documentation](https://fable-retold.github.io/fable-serviceproviderbase/)** - interactive docs with the full API reference.
 
 The base class for all services in the Fable ecosystem. Provides a standard interface for dependency injection, options handling, unique identification, and lifecycle management -- used to build database connectors, API servers, template engines, view controllers, and any other service that plugs into a Fable application.
 
